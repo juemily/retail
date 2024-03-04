@@ -21,15 +21,6 @@ class RetailServiceImplTest {
     private PriceServiceImpl service;
 
 
-
-    private List<Price> priceList = new ArrayList<>();
-    private List<PriceEntity> priceEntityList = new ArrayList<>();
-    private Price price = new Price();
-    private PriceEntity priceEntity = new PriceEntity();
-
-
-
-
     @Test
     void listPrices() throws RetailException {
 
